@@ -57,7 +57,7 @@ const App = () => {
     window.speechSynthesis.speak(utterance);
   };
 
-  const copyText = (text) => {
+  const copyText = (text: string) => {
     navigator.clipboard.writeText(text);
   };
 
